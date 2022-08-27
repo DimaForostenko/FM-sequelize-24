@@ -1,0 +1,19 @@
+{
+  "name": "fm-sequelize-24",
+  "version": "1.0.0",
+  "description": "",
+  "privet": true,
+  "scripts": {
+    "start": "node ./server.js",
+    "start-dev":"nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
