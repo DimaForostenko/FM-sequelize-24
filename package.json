@@ -5,15 +5,21 @@
   "privet": true,
   "scripts": {
     "start": "node ./server.js",
-    "start-dev":"nodemon ./server.js"
+    "start-dev": "nodemon ./server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "date-fns": "^2.29.2",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4"
   },
   "devDependencies": {
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "sequelize-cli": "^6.4.1"
   }
 }
